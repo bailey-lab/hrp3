@@ -2,7 +2,9 @@
 
 - find_aligned_reads.py file: Determines if any reads have begin sequence aligned to chr13 and end sequence aligned to chr11.
 
-"python3 find_aligned_reads.py 'sam file aligning raw reads to chr13> <sam file aligning raw reads to chr11'  <bed file with target mappings> <int corresponding to how much bases are needed to overlap with chr13 and chr11> <name of output file as txt>
+```
+python3 find_aligned_reads.py 'sam file aligning raw reads to chr13> <sam file aligning raw reads to chr11'  <bed file with target mappings> <int corresponding to how much bases are needed to overlap with chr13 and chr11> <name of output file as txt>
+```
 
 - extract_aligned_hybrid.py: Extracts all the reads that map to the hybrid chromosomes
 
